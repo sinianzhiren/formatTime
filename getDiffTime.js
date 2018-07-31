@@ -30,7 +30,7 @@
 
 function getDiffTime(recordTime, yearsFlag) {
 	if(recordTime){
-		recordTime = new Date(parseFloat(recordTime) * 1000);
+		recordTime = new Date(parseFloat(recordTime));
 		let minute = 1000 * 60, //1000毫秒 * 60秒
 			hour = minute * 60,
 			day = hour * 24, 
